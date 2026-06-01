@@ -177,3 +177,5 @@ ollama serve
 or open the Ollama desktop app.
 
 If quantization says the GGUF file does not exist, the conversion step failed. Fix the conversion error first, then rerun `llama-quantize`.
+
+my huggingface URL : huggingface.co/Yousuf008/caveman-smollm2
