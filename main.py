@@ -7,6 +7,5 @@ model = pipeline(
 )
 
 prompt = f"### Instruction: what is a lion?\n### Response:"
-answer = model(prompt, max_new_tokens=100, repetition_penalty=1.3)
-           
+answer = model(prompt, max_new_tokens=100, repetition_penalty=1.3)           
 print(answer[0]["generated_text"]) 
